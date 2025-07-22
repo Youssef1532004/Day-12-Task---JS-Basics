@@ -101,3 +101,60 @@ while ( o < 10) {
 var result = average (100 ,200 ,300 ,400)
 console.log(result);
 ///////
+
+// Object
+var user={
+
+  firstName:"youssef",
+  lastName:"badr",
+  age:25,
+
+addreess:{
+
+   country :"egypt",
+   city  :"Fayoum",
+
+}
+}
+
+console.log(user.lastName);
+
+console.log(user.addreess.city);
+//=======================================
+//arrays
+var studentsAr=["ali" , "ahmed", "mohamed" , "youusef"]
+console.table(studentsAr)
+
+studentsAr.push("salah");
+console.log(studentsAr);
+
+studentsAr.shift()
+console.log(studentsAr);
+
+studentsAr.splice(0,2)
+console.log(studentsAr);
+// //============================
+
+//select elment
+
+var elments=document.getElementsByClassName("test1" [2])
+var elments2=document.getElementById("test2")
+var elments3=document.getElementsByName("text")
+console.log(elments,elments2,elments3);
+
+var elment4_query=document.querySelectorAll(".parent")
+
+//click
+var elment5_query=document.querySelector("#child")
+function seyhello(userName) {
+  console.log("hello", userName);
+}
+for (var i = 0  ;i<elment4_query.length  ;i++)
+elment4_query[i].addEventListener("click",function(){
+
+ hello("youssef")}
+)
+
+
+
+
